@@ -31,4 +31,15 @@ TextStyle categoryTitle = new TextStyle(
     fontFamily: "Helvetica",
     fontWeight: FontWeight.bold,
     fontSize: 15);
+TextStyle smallTitle = new TextStyle(
+    color: Colors.black,
+    fontFamily: "Helvetica",
+    fontWeight: FontWeight.bold,
+    fontSize: 15);
+
+TextStyle namesSmall = new TextStyle(
+    color: Colors.black.withOpacity(0.3),
+    fontFamily: "Helvetica",
+    fontWeight: FontWeight.bold,
+    fontSize: 10);
 

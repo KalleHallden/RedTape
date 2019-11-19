@@ -163,7 +163,7 @@ class _MyHomePageState extends State<MyHomePage> {
     User kalle =
         new User("Kalle", "Hallden", [], AssetImage('lib/Assets/good.JPG'));
     for (int i = 0; i < 10; i++) {
-      Invention invent = new Invention("Auto Computer", [kalle], [kalle], 65,
+      Invention invent = new Invention("Auto Computer", [kalle], [kalle], 0.65,
           "Tech", AssetImage('lib/Assets/laptop.png'));
       kalle.inventions.add(invent);
       inventions.add(InventCard(invention: invent, inventor: kalle));
